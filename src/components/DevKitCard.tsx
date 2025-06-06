@@ -1,0 +1,84 @@
+
+import { ExternalLink, Github, Tag } from 'lucide-react';
+import { Card } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import { DevKit } from '@/data/devKits';
+
+interface DevKitCardProps {
+  kit: DevKit;
+}
+
+const DevKitCard = ({ kit }: DevKitCardProps) => {
+  return (
+    <Card className="p-6 card-glow hover:border-purple-300 transition-all duration-300 group">
+      <div className="flex items-start gap-4">
+        <div className="flex-shrink-0">
+          <div className="w-16 h-16 rounded-lg overflow-hidden bg-gray-50 flex items-center justify-center p-2">
+            <img 
+              src={kit.logo} 
+              alt={`${kit.name} logo`}
+              className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.src = `https://via.placeholder.com/64x64/667eea/ffffff?text=${kit.name.charAt(0)}`;
+              }}
+            />
+          </div>
+        </div>
+        
+        <div className="flex-1 min-w-0">
+          <div className="flex items-start justify-between mb-2">
+            <h3 className="font-semibold text-lg text-gray-900 truncate group-hover:text-purple-700 transition-colors">
+              {kit.name}
+            </h3>
+            <div className="flex gap-2 ml-2">
+              <Button
+                size="sm"
+                variant="ghost"
+                className="h-8 w-8 p-0 hover:bg-purple-100"
+                onClick={() => window.open(kit.url, '_blank')}
+              >
+                <ExternalLink className="w-4 h-4" />
+              </Button>
+              {kit.github && (
+                <Button
+                  size="sm"
+                  variant="ghost"
+                  className="h-8 w-8 p-0 hover:bg-gray-100"
+                  onClick={() => window.open(kit.github, '_blank')}
+                >
+                  <Github className="w-4 h-4" />
+                </Button>
+              )}
+            </div>
+          </div>
+          
+          <p className="text-gray-600 text-sm mb-3 line-clamp-2">
+            {kit.description}
+          </p>
+          
+          <div className="flex flex-wrap gap-1">
+            {kit.tags.slice(0, 3).map((tag) => (
+              <Badge 
+                key={tag} 
+                variant="secondary" 
+                className="text-xs bg-purple-50 text-purple-700 hover:bg-purple-100 transition-colors"
+              >
+                <Tag className="w-3 h-3 mr-1" />
+                {tag}
+              </Badge>
+            ))}
+            {kit.tags.length > 3 && (
+              <Badge variant="outline" className="text-xs">
+                +{kit.tags.length - 3}
+              </Badge>
+            )}
+          </div>
+        </div>
+      </div>
+    </Card>
+  );
+};
+
+export default DevKitCard;
