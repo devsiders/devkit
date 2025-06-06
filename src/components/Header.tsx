@@ -1,4 +1,5 @@
-import { Github, Star } from 'lucide-react';
+
+import { Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Header = () => {
@@ -24,18 +25,6 @@ const Header = () => {
       {/* Main hero content */}
       <div className="relative container mx-auto px-6 py-16">
         <div className="text-center max-w-4xl mx-auto">
-          <div className="flex justify-center mb-6">
-            <div className="relative">
-              <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm animate-float">
-                <Star className="w-10 h-10 text-yellow-300 animate-glow" fill="currentColor" />
-              </div>
-            </div>
-          </div>
-          
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent">
-            Dev Kit Galaxy
-          </h1>
-          
           <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-2xl mx-auto">
             Descubre la galaxia completa de recursos para desarrolladores. 
             Librerías, iconos y fuentes organizados en un solo lugar.
