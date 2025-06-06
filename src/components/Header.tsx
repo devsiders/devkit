@@ -6,7 +6,24 @@ const Header = () => {
   return (
     <header className="relative overflow-hidden galaxy-bg text-white">
       <div className="absolute inset-0 bg-black/20"></div>
-      <div className="relative container mx-auto px-6 py-20">
+      
+      {/* Top navigation bar */}
+      <div className="relative container mx-auto px-6 py-4">
+        <div className="flex justify-between items-center">
+          <h2 className="text-2xl font-bold">DevKit</h2>
+          <Button 
+            variant="ghost"
+            size="sm"
+            className="text-white hover:bg-white/20"
+            onClick={() => window.open('https://github.com', '_blank')}
+          >
+            <Github className="w-5 h-5" />
+          </Button>
+        </div>
+      </div>
+      
+      {/* Main hero content */}
+      <div className="relative container mx-auto px-6 py-16">
         <div className="text-center max-w-4xl mx-auto">
           <div className="flex justify-center mb-6">
             <div className="relative">
