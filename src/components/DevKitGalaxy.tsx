@@ -1,4 +1,3 @@
-
 import { useState, useMemo } from 'react';
 import { Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
@@ -34,7 +33,6 @@ const DevKitGalaxy = () => {
       <Header />
       
       <main className="container mx-auto px-6 py-12">
-        {/* Search Bar */}
         <div className="max-w-md mx-auto mb-8">
           <div className="relative">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
@@ -48,13 +46,11 @@ const DevKitGalaxy = () => {
           </div>
         </div>
 
-        {/* Category Filter */}
         <CategoryFilter 
           activeCategory={activeCategory}
           onCategoryChange={setActiveCategory}
         />
 
-        {/* Results Count */}
         <div className="text-center mb-8">
           <p className="text-gray-600">
             {filteredKits.length} recursos encontrados
@@ -66,7 +62,6 @@ const DevKitGalaxy = () => {
           </p>
         </div>
 
-        {/* Dev Kits Grid */}
         {filteredKits.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredKits.map((kit) => (
@@ -90,11 +85,10 @@ const DevKitGalaxy = () => {
         )}
       </main>
 
-      {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 mt-16">
         <div className="container mx-auto px-6 text-center">
           <p className="text-gray-400">
-            Hecho con ❤️ para la comunidad de desarrolladores
+            Hecho con ❤️ para la comunidad
           </p>
         </div>
       </footer>
