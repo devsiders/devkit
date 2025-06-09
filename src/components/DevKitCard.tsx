@@ -32,23 +32,23 @@ const DevKitCard = ({ kit }: DevKitCardProps) => {
               {kit.name}
             </h3>
             <div className="flex gap-2 ml-2">
-              <Button
-                size="sm"
-                variant="ghost"
-                className="h-8 w-8 p-0 hover:bg-purple-100"
-                onClick={() => window.open(kit.url, '_blank')}
+              <a
+                href={kit.url}
+                target='_blank'
+                className="p-1 hover:bg-purple-100 transition-all duration-500 rounded"
+                aria-label={`Abrir página oficial de ${kit.name}`}
               >
                 <ExternalLink className="w-4 h-4" />
-              </Button>
+              </a>
               {kit.github && (
-                <Button
-                  size="sm"
-                  variant="ghost"
-                  className="h-8 w-8 p-0 hover:bg-gray-100"
-                  onClick={() => window.open(kit.github, '_blank')}
+                <a
+                  href={kit.github}
+                  target='_blank'
+                  className="p-1 hover:bg-gray-100 transition-all duration-500 rounded"
+                  aria-label={`Abrir repositorio de ${kit.name} en GitHub`}
                 >
                   <Github className="w-4 h-4" />
-                </Button>
+                </a>
               )}
             </div>
           </div>
