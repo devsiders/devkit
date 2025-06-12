@@ -4,34 +4,30 @@ import { Input } from '@/components/ui/input';
 import Header from './Header';
 import CategoryFilter from './CategoryFilter';
 import DevKitCard from './DevKitCard';
-import { devKits } from '@/data/devKits';
+import { allDevKits } from '@/data';
 
 const DevKitGalaxy = () => {
-  const [activeCategory, setActiveCategory] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
+  const [activeCategory, setActiveCategory] = useState('all');
 
   const filteredKits = useMemo(() => {
-    let filtered = devKits;
+    const term = searchTerm.trim().toLowerCase();
 
-    if (activeCategory !== 'all') {
-      filtered = filtered.filter(kit => kit.category === activeCategory);
-    }
+    return allDevKits.filter((kit) => {
+      const matchCategory = activeCategory === 'all' || kit.category === activeCategory;
+      const matchSearch =
+        kit.name.toLowerCase().includes(term) ||
+        kit.description.toLowerCase().includes(term) ||
+        kit.tags?.some((tag) => tag.toLowerCase().includes(term));
 
-    if (searchTerm) {
-      filtered = filtered.filter(kit =>
-        kit.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        kit.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        kit.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))
-      );
-    }
-
-    return filtered;
-  }, [activeCategory, searchTerm]);
+      return matchCategory && (!term || matchSearch);
+    });
+  }, [searchTerm, activeCategory]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
       <Header />
-      
+
       <main className="container mx-auto px-6 py-12">
         <div className="max-w-md mx-auto mb-8">
           <div className="relative">
@@ -65,7 +61,7 @@ const DevKitGalaxy = () => {
         {filteredKits.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredKits.map((kit) => (
-              <DevKitCard key={kit.id} kit={kit} />
+              <DevKitCard key={kit.id + kit.name} kit={kit} />
             ))}
           </div>
         ) : (
