@@ -1,7 +1,7 @@
 import { ExternalLink, Github, Tag } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { DevKit } from '@/data/devKits';
+import { DevKit } from '@/types/devKits';
 
 interface DevKitCardProps {
   kit: DevKit;
