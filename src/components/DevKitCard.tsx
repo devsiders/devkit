@@ -13,15 +13,16 @@ const DevKitCard = ({ kit }: DevKitCardProps) => {
       <div className="flex items-start gap-4">
         <div className="flex-shrink-0">
           <div className="w-16 h-16 rounded-lg overflow-hidden bg-gray-50 flex items-center justify-center p-2">
-            <img 
-              src={kit.logo} 
-              alt={`${kit.name} logo`}
-              className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.src = `https://via.placeholder.com/64x64/667eea/ffffff?text=${kit.name.charAt(0)}`;
-              }}
-            />
+            {kit.logo && (
+              <img
+                src={kit.logo}
+                alt={`${kit.name} logo`}
+                className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
+              />
+            )}
           </div>
         </div>
         
