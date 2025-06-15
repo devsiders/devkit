@@ -2,25 +2,13 @@
 
 DevKit es una plataforma que recopila herramientas para los desarrolladores, incluyendo librerías, componentes UI, colecciones de iconos y fuentes tipográficas.
 
-## Categorías
+### Categorías
 
 - **Libraries**: Librerías y frameworks para frontend y backend.
 - **UI**: Componentes y kits de interfaz de usuario.
 - **Icons**: Colecciones de iconos SVG y fuentes de iconos.
 - **Fonts**: Fuentes tipográficas para proyectos web y desarrollo.
 - **Tools**: Herramientas útiles para diseñadores y desarrolladores.
-
-## Uso
-
-Cada recurso tiene:
-
-- Nombre
-- Descripción
-- Logo
-- Enlace a su página oficial
-- Enlace al repositorio GitHub (opcional)
-- Categoría
-- Etiquetas para facilitar la búsqueda
 
 Puedes usar esta lista para descubrir nuevas herramientas o integrarlas en tus proyectos.
 
