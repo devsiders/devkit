@@ -17,7 +17,7 @@ const DevKitCard = ({ kit }: DevKitCardProps) => {
               <img
                 src={kit.logo}
                 alt={`${kit.name} logo`}
-                className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
+                className="w-24 h-24 object-contain group-hover:scale-110 transition-transform duration-300"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }}
