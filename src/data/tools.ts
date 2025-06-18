@@ -36,7 +36,77 @@ export const devKits: DevKit[] = [
     url: 'https://undraw.co',
     category: 'tools',
     tags: ['illustrations', 'svg', 'design']
+  },
+  {
+    id: '5',
+    name: 'CSS Grid Generator',
+    description: 'Herramienta interactiva para crear y visualizar layouts de CSS Grid',
+    logo: 'https://cssgridgenerator.io/favicon.ico',
+    url: 'https://cssgridgenerator.io',
+    category: 'tools',
+    tags: ['css', 'grid', 'layout']
+  },
+  {
+    id: '6',
+    name: 'ManyPixels',
+    description: 'Herramienta de ilustraciones SVG y PNG gratuitas para web',
+    logo: 'https://www.manypixels.co/favicon.ico',
+    url: 'https://www.manypixels.co/',
+    category: 'icons',
+    tags: ['illustrations', 'svg', 'png', 'design']
+  },
+  {
+    id: '7',
+    name: 'Remove.bg',
+    description: 'Herramienta para eliminar automáticamente el fondo de imágenes',
+    logo: 'https://www.remove.bg/favicon.ico',
+    url: 'https://www.remove.bg/es',
+    category: 'tools',
+    tags: ['image', 'ai', 'background removal']
+  },
+  {
+    id: '8',
+    name: 'RapidAPI',
+    description: 'Plataforma para probar e integrar miles de APIs desde un único lugar',
+    logo: 'https://rapidapi.com/favicon.ico',
+    url: 'https://rapidapi.com/hub',
+    category: 'tools',
+    tags: ['api', 'integration', 'developer']
+  },
+  {
+    id: '9',
+    name: 'Meta Tags',
+    description: 'Herramienta para previsualizar, editar y generar meta tags para SEO y redes sociales',
+    logo: 'https://cdn-1.webcatalog.io/catalog/meta-tags/meta-tags-icon-filled-256.png',
+    url: 'https://metatags.io/',
+    category: 'tools',
+    tags: ['meta tags', 'seo', 'social']
+  },
+  {
+    id: '10',
+    name: 'LogoMakr',
+    description: 'Herramienta online para crear logos personalizados con plantillas',
+    logo: 'https://logomakr.com/favicon.ico',
+    url: 'https://logomakr.com',
+    category: 'tools',
+    tags: ['logo', 'design', 'ai', 'graphics']
+  },
+  {
+    id: '11',
+    name: 'Color Palette Generator',
+    description: 'Herramienta para generar una paletas de color automáticas a partir de imágenes',
+    logo: 'https://canva.com/favicon.ico',
+    url: 'https://www.canva.com/colors/color-palette-generator/',
+    category: 'tools',
+    tags: ['colors', 'palette', 'generator', 'image']
   }
+
+
+
+
+
+
+
 
 
 ];

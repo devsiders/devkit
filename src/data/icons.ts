@@ -69,5 +69,15 @@ export const devKits: DevKit[] = [
     category: 'icons',
     tags: ['react', 'collection', 'library']
   },
+  {
+    id: '8',
+    name: 'Ionicons',
+    description: 'Colección de iconos vectoriales para apps y sitios web.',
+    logo: 'https://ionic.io/favicon.ico',
+    url: 'https://ionic.io/ionicons',
+    category: 'icons',
+    tags: ['icons', 'svg', 'ui']
+  }
+
   
 ];
