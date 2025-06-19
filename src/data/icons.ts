@@ -5,7 +5,7 @@ export const devKits: DevKit[] = [
     id: '1',
     name: 'Boxicons',
     description: 'Iconos vectoriales gratuitos para interfaces web y móviles',
-    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr5JLXw5qipkS1hX9rfMTRQF1TYUDQ2xVnKw&s',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://cdn.boxicons.com/logo.png',
     url: 'https://boxicons.com',
     category: 'icons',
     tags: ['icons', 'svg', 'ui']

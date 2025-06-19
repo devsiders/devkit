@@ -5,7 +5,7 @@ export const devKits: DevKit[] = [
     id: '1',
     name: 'Coolors',
     description: 'Herramienta de generador de paletas de colores modernas y accesibles',
-    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Z-Za29aK4uzU66jX6xoysmA5Lku43hsFwg&s',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://coolors.co/assets/img/logo.svg',
     url: 'https://coolors.co',
     category: 'tools',
     tags: ['colors', 'palette', 'design']
