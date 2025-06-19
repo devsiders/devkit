@@ -5,7 +5,7 @@ export const devKits: DevKit[] = [
     id: '1',
     name: 'Bootstrap',
     description: 'Framework CSS popular para construir interfaces responsive y modernas',
-    logo: 'https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png',
     url: 'https://getbootstrap.com',
     category: 'libraries',
     tags: ['css', 'responsive', 'framework']
@@ -14,7 +14,7 @@ export const devKits: DevKit[] = [
     id: '2',
     name: 'Bulma',
     description: 'Framework CSS moderno basado en Flexbox.',
-    logo: 'https://bulma.io/assets/brand/Bulma%20Icon.png',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://bulma.io/assets/brand/Bulma%20Icon.png',
     url: 'https://bulma.io',
     github: 'https://github.com/jgthms/bulma',
     category: 'libraries',
@@ -24,6 +24,7 @@ export const devKits: DevKit[] = [
     id: '3',
     name: 'Foundation',
     description: 'Framework responsive avanzado para construir sitios web y correos HTML.',
+    // No tiene logo en tu JSON original
     url: 'https://get.foundation',
     github: 'https://github.com/foundation/foundation-sites',
     category: 'libraries',
@@ -33,7 +34,7 @@ export const devKits: DevKit[] = [
     id: '4',
     name: 'Materialize',
     description: 'Framework CSS basado en Material Design de Google.',
-    logo: 'https://materializecss.com/res/materialize.svg',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://materializecss.com/res/materialize.svg',
     url: 'https://materializecss.com',
     github: 'https://github.com/Dogfalo/materialize',
     category: 'libraries',
@@ -43,7 +44,7 @@ export const devKits: DevKit[] = [
     id: '5',
     name: 'Semantic UI',
     description: 'Framework CSS basado en clases legibles y semánticas para construir interfaces elegantes.',
-    logo: 'https://semantic-ui.com/images/logo.png',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://semantic-ui.com/images/logo.png',
     url: 'https://semantic-ui.com',
     github: 'https://github.com/Semantic-Org/Semantic-UI',
     category: 'libraries',
@@ -53,6 +54,7 @@ export const devKits: DevKit[] = [
     id: '6',
     name: 'Skeleton',
     description: 'Un micro framework CSS para sitios web responsive y rápidos.',
+    // No tiene logo en tu JSON original
     url: 'http://getskeleton.com',
     github: 'https://github.com/dhg/Skeleton',
     category: 'libraries',
@@ -62,10 +64,9 @@ export const devKits: DevKit[] = [
     id: '7',
     name: 'Tailwind CSS',
     description: 'Framework CSS utility-first para desarrollo rápido',
-    logo: 'https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg',
     url: 'https://tailwindcss.com',
     category: 'libraries',
     tags: ['css', 'utility', 'responsive','framework']
   },
-  
 ];
