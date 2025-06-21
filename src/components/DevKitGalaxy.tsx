@@ -1,27 +1,43 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import Header from './Header';
 import CategoryFilter from './CategoryFilter';
 import DevKitCard from './DevKitCard';
 import { allDevKits } from '@/data';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const DevKitGalaxy = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeCategory, setActiveCategory] = useState('all');
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 6;
 
+  // Filtrar kits por categoría y búsqueda
   const filteredKits = useMemo(() => {
     const term = searchTerm.trim().toLowerCase();
-
     return allDevKits.filter((kit) => {
       const matchCategory = activeCategory === 'all' || kit.category === activeCategory;
       const matchSearch =
         kit.name.toLowerCase().includes(term) ||
         kit.description.toLowerCase().includes(term) ||
         kit.tags?.some((tag) => tag.toLowerCase().includes(term));
-
       return matchCategory && (!term || matchSearch);
     });
+  }, [searchTerm, activeCategory]);
+
+  // Calcular total de páginas
+  const totalPages = Math.ceil(filteredKits.length / itemsPerPage);
+
+  // Cortar lista para paginar
+  const paginatedKits = useMemo(() => {
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    return filteredKits.slice(startIndex, startIndex + itemsPerPage);
+  }, [filteredKits, currentPage]);
+
+  // Resetear a la página 1 si cambian los filtros
+  useEffect(() => {
+    setCurrentPage(1);
   }, [searchTerm, activeCategory]);
 
   return (
@@ -60,7 +76,7 @@ const DevKitGalaxy = () => {
 
         {filteredKits.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredKits.map((kit) => (
+            {paginatedKits.map((kit) => (
               <DevKitCard key={kit.id + kit.name} kit={kit} />
             ))}
           </div>
@@ -79,13 +95,36 @@ const DevKitGalaxy = () => {
             </div>
           </div>
         )}
+
+        {/* Controles de paginación */}
+        {totalPages > 1 && (
+          <div className="flex justify-center mt-10 items-center gap-4">
+            <button
+              onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+              disabled={currentPage === 1}
+              className="px-4 py-2 bg-gray-200 text-gray-700 rounded disabled:opacity-50"
+            >
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+
+            <span className="text-gray-700 font-medium">
+              Página {currentPage} de {totalPages}
+            </span>
+
+            <button
+              onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+              disabled={currentPage === totalPages}
+              className="px-4 py-2 bg-gray-200 text-gray-700 rounded disabled:opacity-50"
+            >
+              <ChevronRight  className="w-5 h-5" />
+            </button>
+          </div>
+        )}
       </main>
 
       <footer className="bg-gray-900 text-white py-8 mt-16">
         <div className="container mx-auto px-6 text-center">
-          <p className="text-gray-400">
-            Hecho con ❤️ para la comunidad
-          </p>
+          <p className="text-gray-400">Hecho con ❤️ para la comunidad</p>
         </div>
       </footer>
     </div>
