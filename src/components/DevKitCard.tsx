@@ -18,6 +18,7 @@ const DevKitCard = ({ kit }: DevKitCardProps) => {
                 src={kit.logo}
                 alt={`${kit.name} logo`}
                 className="w-24 h-24 object-contain group-hover:scale-110 transition-transform duration-300"
+                loading="lazy"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                 }}
