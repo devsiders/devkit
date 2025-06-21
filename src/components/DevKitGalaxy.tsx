@@ -52,7 +52,7 @@ const DevKitGalaxy = () => {
             {filteredKits.length} recursos encontrados
             {activeCategory !== 'all' && (
               <span className="ml-1">
-                en {activeCategory === 'libraries' ? 'Librerías' : activeCategory === 'ui' ? 'UI' : activeCategory === 'icons' ? 'Iconos' : activeCategory === 'fonts' ? 'Fuentes' : activeCategory === 'tools' ? 'Herramientas' : ''}
+                en {activeCategory === 'libraries' ? 'Librerías' : activeCategory === 'icons' ? 'Iconos' : activeCategory === 'fonts' ? 'Fuentes' : activeCategory === 'tools' ? 'Herramientas' : ''}
               </span>
             )}
           </p>
