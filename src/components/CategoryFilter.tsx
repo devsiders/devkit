@@ -9,7 +9,6 @@ interface CategoryFilterProps {
 const categories = [
   { id: 'all', name: 'Todos', icon: Boxes },
   { id: 'libraries', name: 'Librerías', icon: Package },
-  { id: 'ui', name: 'UI', icon: LayoutGrid },
   { id: 'icons', name: 'Iconos', icon: Palette },
   { id: 'fonts', name: 'Fuentes', icon: Type },
   { id: 'tools', name: 'Herramientas', icon: Wrench }
