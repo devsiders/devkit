@@ -11,7 +11,7 @@ const DevKitGalaxy = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeCategory, setActiveCategory] = useState('all');
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 6;
+  const itemsPerPage = 8;
 
   // Filtrar kits por categoría y búsqueda
   const filteredKits = useMemo(() => {
@@ -102,19 +102,21 @@ const DevKitGalaxy = () => {
             <button
               onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
               disabled={currentPage === 1}
-              className="px-4 py-2 bg-gray-200 text-gray-700 rounded disabled:opacity-50"
+              className="px-2 py-2 bg-purple-200 text-purple-700 rounded-full disabled:opacity-50"
+              aria-label="Ir a la página anterior"
             >
               <ChevronLeft className="w-5 h-5" />
             </button>
 
             <span className="text-gray-700 font-medium">
-              Página {currentPage} de {totalPages}
+              {currentPage} de {totalPages}
             </span>
 
             <button
               onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
               disabled={currentPage === totalPages}
-              className="px-4 py-2 bg-gray-200 text-gray-700 rounded disabled:opacity-50"
+              className="px-2 py-2 bg-purple-200 text-purple-700 rounded-full disabled:opacity-50"
+              aria-label="Ir a la página siguiente"
             >
               <ChevronRight  className="w-5 h-5" />
             </button>
