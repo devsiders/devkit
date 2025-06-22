@@ -63,7 +63,7 @@ const DevKitCard = ({ kit }: DevKitCardProps) => {
               <Badge 
                 key={tag} 
                 variant="secondary" 
-                className="text-xs bg-purple-50 text-purple-700 hover:bg-purple-100 transition-colors"
+                className="text-xs font-normal bg-purple-50 text-purple-500 hover:bg-purple-100 transition-colors"
               >
                 <Tag className="w-3 h-3 mr-1" />
                 {tag}
