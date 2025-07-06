@@ -99,5 +99,43 @@ export const devKits: DevKit[] = [
     url: 'https://www.canva.com/colors/color-palette-generator/',
     category: 'tools',
     tags: ['colors', 'palette', 'generator', 'image']
+  },
+  {
+    id: '12',
+    name: 'SVGRepo',
+    description: 'Herramienta que recopila íconos y SVGs gratuitos',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://www.svgrepo.com/logo.svg',
+    url: 'https://www.svgrepo.com',
+    category: 'tools',
+    tags: ['svg', 'icons', 'free']
+  },
+  {
+    id: '13',
+    name: 'Mobbin',
+    description: 'Herramienta que recopila patrones de diseño de apps populares para inspirar tus interfaces',
+    url: 'https://mobbin.com',
+    category: 'tools',
+    tags: ['design', 'ui', 'ux']
+  },
+  {
+    id: '14',
+    name: 'Origin UI',
+    description: 'Herramienta que ofrece secciones y componentes premium para Tailwind CSS',
+    url: 'https://originui.com',
+    category: 'tools',
+    tags: ['tailwind', 'ui', 'components']
+  },
+  {
+    id: '15',
+    name: 'Formspree',
+    description: 'Plataforma que permite recibir formularios sin necesidad de backend',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://formspree.io/img/formspree-new.svg',
+    url: 'https://formspree.io',
+    category: 'tools',
+    tags: ['forms', 'backend', 'email', 'serverless']
   }
+
+
+
+
 ];

@@ -67,6 +67,27 @@ export const devKits: DevKit[] = [
     logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg',
     url: 'https://tailwindcss.com',
     category: 'libraries',
-    tags: ['css', 'utility', 'responsive','framework']
+    tags: ['css', 'utility', 'responsive', 'framework']
   },
+  {
+    id: '8',
+    name: 'Flowbite',
+    description: 'Componentes UI construidos con Tailwind CSS para sitios web rápidos y modernos',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://flowbite.com/images/logo.svg',
+    url: 'https://flowbite.com',
+    category: 'libraries',
+    tags: ['tailwind', 'ui', 'components', 'framework']
+  },
+  {
+    id: '9',
+    name: 'StencilJS',
+    description: 'Librería para crear componentes web reutilizables con estándares modernos',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://stenciljs.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.ee275b6c.png&w=96&q=75',
+    url: 'https://stenciljs.com',
+    category: 'libraries',
+    tags: ['components', 'framework', 'ui']
+  }
+
+
+
 ];
