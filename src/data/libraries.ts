@@ -86,6 +86,15 @@ export const devKits: DevKit[] = [
     url: 'https://stenciljs.com',
     category: 'libraries',
     tags: ['components', 'framework', 'ui']
+  },
+  {
+    id: '10',
+    name: 'Figcomponents',
+    description: 'Colección de componentes reutilizables para Figma para usar en tus diseños.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://www.figcomponents.com/_nuxt/img/logo-figma.2912900.svg',
+    url: 'https://figcomponents.com/',
+    category: 'libraries',
+    tags: ['figma', 'ui', 'components']
   }
 
 
