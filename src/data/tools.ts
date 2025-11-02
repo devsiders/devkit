@@ -133,8 +133,24 @@ export const devKits: DevKit[] = [
     url: 'https://formspree.io',
     category: 'tools',
     tags: ['forms', 'backend', 'email', 'serverless']
+  },
+  {
+    id: '16',
+    name: 'Postimages',
+    description: 'Plataforma para subir, alojar y compartir imágenes de forma rápida y sin registro.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://postimgs.org/apple-touch-icon.png',
+    url: 'https://postimages.org/es/',
+    category: 'tools',
+    tags: ['images', 'hosting', 'upload', 'sharing']
+  },
+  {
+    id: '17',
+    name: 'Squish',
+    description: 'Herramienta para compresión de imágenes por lotes (AVIF, JPEG XL, PNG, WebP) sin subir archivos al servidor.',
+    url: 'https://squish.addy.ie/',
+    category: 'tools',
+    tags: ['images', 'compression', 'batch']
   }
-
 
 
 
