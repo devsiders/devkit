@@ -91,7 +91,7 @@ export const devKits: DevKit[] = [
     id: '10',
     name: 'Figcomponents',
     description: 'Colección de componentes reutilizables para Figma para usar en tus diseños.',
-    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://www.figcomponents.com/_nuxt/img/logo-figma.2912900.svg',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://ph-files.imgix.net/4f5e4096-3fcb-42ec-a8fa-bae1a3182350.png?auto=format',
     url: 'https://figcomponents.com/',
     category: 'libraries',
     tags: ['figma', 'ui', 'components']
