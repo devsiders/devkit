@@ -54,7 +54,6 @@ export const devKits: DevKit[] = [
     id: '6',
     name: 'Skeleton',
     description: 'Un micro framework CSS para sitios web responsive y rápidos.',
-    // No tiene logo en tu JSON original
     url: 'http://getskeleton.com',
     github: 'https://github.com/dhg/Skeleton',
     category: 'libraries',
@@ -95,7 +94,18 @@ export const devKits: DevKit[] = [
     url: 'https://figcomponents.com/',
     category: 'libraries',
     tags: ['figma', 'ui', 'components']
+  },
+  {
+    id: '11',
+    name: 'SpoilerJS',
+    description: 'Colección de componentes web agnóstico que permite crear efectos de spoiler con animaciones, compatible con React, Vue y más.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://spoilerjs.sh4jid.me/favicon.ico',
+    url: 'https://spoilerjs.sh4jid.me/',
+    github: 'https://github.com/shajidhasan/spoilerjs',
+    category: 'libraries',
+    tags: ['components', 'ui', 'animation']
   }
+
 
 
 
