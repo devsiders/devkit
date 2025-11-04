@@ -104,7 +104,105 @@ export const devKits: DevKit[] = [
     github: 'https://github.com/shajidhasan/spoilerjs',
     category: 'libraries',
     tags: ['components', 'ui', 'animation']
+  },
+  {
+    id: '12',
+    name: 'Radix UI',
+    description: 'Componentes accesibles y sin estilo para React.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://avatars.githubusercontent.com/u/75042455?s=280&v=4',
+    url: 'https://www.radix-ui.com/',
+    github: 'https://github.com/radix-ui/themes',
+    category: 'libraries',
+    tags: ['ui', 'components', 'react']
+  },
+  {
+    id: '13',
+    name: 'Framer Motion',
+    description: 'Librería de animaciones para React.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://cdn.worldvectorlogo.com/logos/framer-1.svg',
+    url: 'https://www.framer.com/motion/',
+    category: 'libraries',
+    tags: ['animation', 'motion', 'react']
+  },
+  {
+    id: '14',
+    name: 'Chakra UI',
+    description: 'Librería moderna y accesible de componentes React.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://chakra-ui.com/favicon.ico',
+    url: 'https://chakra-ui.com/',
+    github: 'https://github.com/chakra-ui/chakra-ui',
+    category: 'libraries',
+    tags: ['ui', 'components', 'react']
+  },
+  {
+    id: '15',
+    name: 'Shadcn/UI',
+    description: 'Colección de componentes preconstruidos con Tailwind y Radix.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://ui.shadcn.com/favicon.ico',
+    url: 'https://ui.shadcn.com/',
+    github: 'https://github.com/shadcn-ui/ui',
+    category: 'libraries',
+    tags: ['ui', 'tailwind', 'react']
+  },
+  {
+    id: '16',
+    name: 'Mantine',
+    description: 'Componentes React con soporte para temas y dark mode.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://mantine.dev/favicon.svg',
+    url: 'https://mantine.dev/',
+    github: 'https://github.com/mantinedev/mantine',
+    category: 'libraries',
+    tags: ['ui', 'react', 'theme']
+  },
+  {
+    id: '17',
+    name: 'VueUse',
+    description: 'Colección de utilidades reactivas para Vue 3.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://vueuse.org/favicon.svg',
+    url: 'https://vueuse.org/',
+    github: 'https://github.com/vueuse/vueuse',
+    category: 'libraries',
+    tags: ['vue', 'utilities', 'composition-api']
+  },
+  {
+    id: '18',
+    name: 'Recharts',
+    description: 'Librería de gráficos para React basada en D3.',
+    url: 'https://recharts.org/',
+    github: 'https://github.com/recharts/recharts',
+    category: 'libraries',
+    tags: ['charts', 'data', 'react']
+  },
+  {
+    id: '19',
+    name: 'Three.js',
+    description: 'Motor 3D para la web basado en WebGL.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://threejs.org/files/favicon.ico',
+    url: 'https://threejs.org/',
+    github: 'https://github.com/mrdoob/three.js/',
+    category: 'libraries',
+    tags: ['3d', 'graphics', 'webgl']
+  },
+  {
+    id: '20',
+    name: 'GSAP',
+    description: 'Librería para animaciones web rápidas.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://gsap.com/favicon.ico',
+    url: 'https://gsap.com/',
+    category: 'libraries',
+    tags: ['animation', 'javascript', 'motion']
+  },
+  {
+    id: '21',
+    name: 'React Hook Form',
+    description: 'Líbreria de manejo de formularios en React con validación.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://avatars.githubusercontent.com/u/53986236?s=280&v=4',
+    url: 'https://react-hook-form.com/',
+    github: 'https://github.com/react-hook-form/react-hook-form',
+    category: 'libraries',
+    tags: ['forms', 'react', 'validation']
   }
+
 
 
 
