@@ -8,6 +8,14 @@ const Header = () => {
       <div className="relative container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <h2 className="text-2xl font-bold">DevKit</h2>
+          <a href="https://github.com/devsiders/devkit"
+            className="text-white hover:bg-white/20 p-1 transition-all duration-200 rounded"
+            target='_blank'
+            rel="noopener noreferrer"
+            aria-label='Abrir repositorio en GitHub'
+          >
+            <Github className="w-5 h-5" />
+          </a>
         </div>
       </div>
       
