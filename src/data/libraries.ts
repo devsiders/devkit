@@ -201,7 +201,28 @@ export const devKits: DevKit[] = [
     github: 'https://github.com/react-hook-form/react-hook-form',
     category: 'libraries',
     tags: ['forms', 'react', 'validation']
+  },
+  {
+    id: '22',
+    name: 'TanStack Query',
+    description: 'Líbreria para manejo avanzado de estado del servidor y caché para React, Vue y Svelte.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://tanstack.com/favicon.ico',
+    url: 'https://tanstack.com/query/latest',
+    github: 'https://github.com/tanstack/query',
+    category: 'libraries',
+    tags: ['react', 'data-fetching', 'state']
+  },
+  {
+    id: '23',
+    name: 'Zustand',
+    description: 'Líbreria ligera y rápida para manejo de estado en React.',
+    logo: 'https://zustand-demo.pmnd.rs/favicon.ico',
+    url: 'https://zustand-demo.pmnd.rs/',
+    github: 'https://github.com/pmndrs/zustand',
+    category: 'libraries',
+    tags: ['state', 'react', 'store']
   }
+
 
 
 
