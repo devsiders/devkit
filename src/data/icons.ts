@@ -91,7 +91,7 @@ export const devKits: DevKit[] = [
     id: '10',
     name: 'Tabler Icons',
     description: 'Colección de íconos SVG gratuitos y personalizables.',
-    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUourOTWXA5ILPxfZ4TNrBuF890h1x404Pew&s',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://avatars.githubusercontent.com/u/35471246?s=200&v=4',
     url: 'https://tabler.io/icons',
     github: 'https://github.com/tabler',
     category: 'icons',
