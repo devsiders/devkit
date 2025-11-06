@@ -155,7 +155,7 @@ export const devKits: DevKit[] = [
     id: '18',
     name: 'TinyPNG',
     description: 'Optimiza imágenes PNG y JPG manteniendo su calidad.',
-    logo: 'https://tinypng.com/images/favicon.ico',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://tinypng.com/images/favicon.ico',
     url: 'https://tinypng.com/',
     category: 'tools',
     tags: ['images', 'compression', 'optimization']
@@ -164,7 +164,7 @@ export const devKits: DevKit[] = [
     id: '19',
     name: 'Netlify',
     description: 'Despliega sitios web estáticos fácilmente.',
-    logo: 'https://www.netlify.com/favicon/favicon-32x32.png',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Netlify_logo_%282%29.svg/1200px-Netlify_logo_%282%29.svg.png',
     url: 'https://www.netlify.com/',
     category: 'tools',
     tags: ['hosting', 'deploy', 'ci-cd']
@@ -173,7 +173,7 @@ export const devKits: DevKit[] = [
     id: '20',
     name: 'UptimeRobot',
     description: 'Monitorea la disponibilidad de tus sitios web.',
-    logo: 'https://uptimerobot.com/favicon.ico',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://uptimerobot.com/favicon.ico',
     url: 'https://uptimerobot.com/',
     category: 'tools',
     tags: ['monitoring', 'status', 'performance']
@@ -182,7 +182,7 @@ export const devKits: DevKit[] = [
     id: '21',
     name: 'Figma',
     description: 'Herramienta colaborativa de diseño de interfaces.',
-    logo: 'https://www.figma.com/favicon.ico',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg',
     url: 'https://www.figma.com/',
     category: 'tools',
     tags: ['design', 'ui', 'collaboration']
@@ -191,7 +191,7 @@ export const devKits: DevKit[] = [
     id: '22',
     name: 'Vercel',
     description: 'Despliegue instantáneo para proyectos front-end y Next.js.',
-    logo: 'https://vercel.com/favicon.ico',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://vercel.com/favicon.ico',
     url: 'https://vercel.com/',
     category: 'tools',
     tags: ['hosting', 'deploy', 'serverless']
