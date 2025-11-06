@@ -1,5 +1,6 @@
-import { DevKit } from "../types/devKits";
 
+<<<<<<< HEAD
+=======
 export const devKits: DevKit[] = [
   {
     id: '1',
@@ -77,13 +78,13 @@ export const devKits: DevKit[] = [
     id: '9',
     name: 'Fonts Arena',
     description: 'Colección curada de fuentes gratuitas y premium.',
-    logo: 'https://fontsarena.com/favicon.ico',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://fontsarena.com/favicon.ico',
     url: 'https://fontsarena.com/',
     category: 'fonts',
     tags: ['fonts', 'collection', 'design']
   },
   {
-    id: '39',
+    id: '10',
     name: 'Monotype',
     description: 'Proveedor líder de fuentes profesionales y licencias comerciales.',
     logo: 'https://www.monotype.com/favicon.ico',
@@ -92,10 +93,10 @@ export const devKits: DevKit[] = [
     tags: ['fonts', 'commercial', 'professional']
   },
   {
-    id: '40',
+    id: '11',
     name: 'The League of Moveable Type',
     description: 'Colectivo que ofrece fuentes open-source de calidad.',
-    logo: 'https://www.theleagueofmoveabletype.com/favicon.ico',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://www.theleagueofmoveabletype.com/favicon.ico',
     url: 'https://www.theleagueofmoveabletype.com/',
     category: 'fonts',
     tags: ['fonts', 'open-source', 'typography']
@@ -103,3 +104,5 @@ export const devKits: DevKit[] = [
 
 
 ];
+
+>>>>>>> 6c540c330cbb182c58952b37497d249fe3c31523
