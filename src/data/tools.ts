@@ -188,16 +188,7 @@ export const devKits: DevKit[] = [
     tags: ['design', 'ui', 'collaboration']
   },
   {
-    id: '17',
-    name: 'Squoosh',
-    description: 'App web para comprimir imágenes con múltiples formatos.',
-    logo: 'https://squoosh.app/assets/icon.png',
-    url: 'https://squoosh.app/',
-    category: 'tools',
-    tags: ['images', 'compression', 'web']
-  },
-  {
-    id: '18',
+    id: '22',
     name: 'Vercel',
     description: 'Despliegue instantáneo para proyectos front-end y Next.js.',
     logo: 'https://vercel.com/favicon.ico',
