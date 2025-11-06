@@ -150,7 +150,62 @@ export const devKits: DevKit[] = [
     url: 'https://squish.addy.ie/',
     category: 'tools',
     tags: ['images', 'compression', 'batch']
+  },
+  {
+    id: '18',
+    name: 'TinyPNG',
+    description: 'Optimiza imágenes PNG y JPG manteniendo su calidad.',
+    logo: 'https://tinypng.com/images/favicon.ico',
+    url: 'https://tinypng.com/',
+    category: 'tools',
+    tags: ['images', 'compression', 'optimization']
+  },
+  {
+    id: '19',
+    name: 'Netlify',
+    description: 'Despliega sitios web estáticos fácilmente.',
+    logo: 'https://www.netlify.com/favicon/favicon-32x32.png',
+    url: 'https://www.netlify.com/',
+    category: 'tools',
+    tags: ['hosting', 'deploy', 'ci-cd']
+  },
+  {
+    id: '20',
+    name: 'UptimeRobot',
+    description: 'Monitorea la disponibilidad de tus sitios web.',
+    logo: 'https://uptimerobot.com/favicon.ico',
+    url: 'https://uptimerobot.com/',
+    category: 'tools',
+    tags: ['monitoring', 'status', 'performance']
+  },
+  {
+    id: '21',
+    name: 'Figma',
+    description: 'Herramienta colaborativa de diseño de interfaces.',
+    logo: 'https://www.figma.com/favicon.ico',
+    url: 'https://www.figma.com/',
+    category: 'tools',
+    tags: ['design', 'ui', 'collaboration']
+  },
+  {
+    id: '17',
+    name: 'Squoosh',
+    description: 'App web para comprimir imágenes con múltiples formatos.',
+    logo: 'https://squoosh.app/assets/icon.png',
+    url: 'https://squoosh.app/',
+    category: 'tools',
+    tags: ['images', 'compression', 'web']
+  },
+  {
+    id: '18',
+    name: 'Vercel',
+    description: 'Despliegue instantáneo para proyectos front-end y Next.js.',
+    logo: 'https://vercel.com/favicon.ico',
+    url: 'https://vercel.com/',
+    category: 'tools',
+    tags: ['hosting', 'deploy', 'serverless']
   }
+
 
 
 
