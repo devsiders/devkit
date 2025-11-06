@@ -1,6 +1,3 @@
-
-<<<<<<< HEAD
-=======
 export const devKits: DevKit[] = [
   {
     id: '1',
@@ -102,4 +99,3 @@ export const devKits: DevKit[] = [
 
 ];
 
->>>>>>> 6c540c330cbb182c58952b37497d249fe3c31523
