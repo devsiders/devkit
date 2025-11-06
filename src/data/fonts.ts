@@ -19,4 +19,87 @@ export const devKits: DevKit[] = [
     category: 'fonts',
     tags: ['monospace', 'coding', 'developer']
   },
+  {
+    id: '3',
+    name: 'Fontshare',
+    description: 'Fuentes gratuitas y de alta calidad para uso comercial.',
+    logo: 'https://www.fontshare.com/favicon.ico',
+    url: 'https://www.fontshare.com/',
+    category: 'fonts',
+    tags: ['fonts', 'free', 'modern']
+  },
+  {
+    id: '4',
+    name: 'DaFont',
+    description: 'Extensa biblioteca de fuentes gratuitas y decorativas.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://www.dafont.com/favicon.ico',
+    url: 'https://www.dafont.com/',
+    category: 'fonts',
+    tags: ['fonts', 'download', 'creative']
+  },
+  {
+    id: '5',
+    name: 'Font Squirrel',
+    description: 'Fuentes gratuitas y con licencia comercial segura.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://www.fontsquirrel.com/favicon.ico',
+    url: 'https://www.fontsquirrel.com/',
+    category: 'fonts',
+    tags: ['fonts', 'free', 'license']
+  },
+  {
+    id: '6',
+    name: 'Adobe Fonts',
+    description: 'Colección profesional de fuentes disponibles en Creative Cloud.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://fonts.adobe.com/favicon.ico',
+    url: 'https://fonts.adobe.com/',
+    category: 'fonts',
+    tags: ['fonts', 'adobe', 'professional']
+  },
+  {
+    id: '7',
+    name: 'Velvetyne',
+    description: 'Fundición tipográfica libre y experimental.',
+    logo: 'https://velvetyne.fr/favicon.ico',
+    url: 'https://velvetyne.fr/',
+    category: 'fonts',
+    tags: ['fonts', 'open-source', 'creative']
+  },
+  {
+    id: '8',
+    name: 'Inter',
+    description: 'Fuente optimizada para interfaces modernas y legibles.',
+    logo: 'https://rsms.me/inter/favicon.ico',
+    url: 'https://rsms.me/inter/',
+    category: 'fonts',
+    tags: ['font', 'ui', 'legible']
+  },
+  {
+    id: '9',
+    name: 'Fonts Arena',
+    description: 'Colección curada de fuentes gratuitas y premium.',
+    logo: 'https://fontsarena.com/favicon.ico',
+    url: 'https://fontsarena.com/',
+    category: 'fonts',
+    tags: ['fonts', 'collection', 'design']
+  },
+  {
+    id: '39',
+    name: 'Monotype',
+    description: 'Proveedor líder de fuentes profesionales y licencias comerciales.',
+    logo: 'https://www.monotype.com/favicon.ico',
+    url: 'https://www.monotype.com/',
+    category: 'fonts',
+    tags: ['fonts', 'commercial', 'professional']
+  },
+  {
+    id: '40',
+    name: 'The League of Moveable Type',
+    description: 'Colectivo que ofrece fuentes open-source de calidad.',
+    logo: 'https://www.theleagueofmoveabletype.com/favicon.ico',
+    url: 'https://www.theleagueofmoveabletype.com/',
+    category: 'fonts',
+    tags: ['fonts', 'open-source', 'typography']
+  }
+
+
 ];
