@@ -24,7 +24,6 @@ export const devKits: DevKit[] = [
     id: '3',
     name: 'Fontshare',
     description: 'Fuentes gratuitas y de alta calidad para uso comercial.',
-    logo: 'https://www.fontshare.com/favicon.ico',
     url: 'https://www.fontshare.com/',
     category: 'fonts',
     tags: ['fonts', 'free', 'modern']
@@ -60,7 +59,6 @@ export const devKits: DevKit[] = [
     id: '7',
     name: 'Velvetyne',
     description: 'Fundición tipográfica libre y experimental.',
-    logo: 'https://velvetyne.fr/favicon.ico',
     url: 'https://velvetyne.fr/',
     category: 'fonts',
     tags: ['fonts', 'open-source', 'creative']
@@ -68,8 +66,7 @@ export const devKits: DevKit[] = [
   {
     id: '8',
     name: 'Inter',
-    description: 'Fuente optimizada para interfaces modernas y legibles.',
-    logo: 'https://rsms.me/inter/favicon.ico',
+    description: 'Fuente diseñada para interfaces modernas y una lectura clara.',
     url: 'https://rsms.me/inter/',
     category: 'fonts',
     tags: ['font', 'ui', 'legible']
@@ -77,7 +74,7 @@ export const devKits: DevKit[] = [
   {
     id: '9',
     name: 'Fonts Arena',
-    description: 'Colección curada de fuentes gratuitas y premium.',
+    description: 'Colección seleccionada de fuentes gratuitas y premium para diseñadores.',
     logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://fontsarena.com/favicon.ico',
     url: 'https://fontsarena.com/',
     category: 'fonts',
@@ -86,8 +83,8 @@ export const devKits: DevKit[] = [
   {
     id: '10',
     name: 'Monotype',
-    description: 'Proveedor líder de fuentes profesionales y licencias comerciales.',
-    logo: 'https://www.monotype.com/favicon.ico',
+    description: 'Plataforma que ofrece tipografías profesionales y soluciones de licencias comerciales.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://upload.wikimedia.org/wikipedia/commons/e/e3/Monotype_logo.png',
     url: 'https://www.monotype.com/',
     category: 'fonts',
     tags: ['fonts', 'commercial', 'professional']
@@ -95,7 +92,7 @@ export const devKits: DevKit[] = [
   {
     id: '11',
     name: 'The League of Moveable Type',
-    description: 'Colectivo que ofrece fuentes open-source de calidad.',
+    description: 'Colectivo tipográfico que ofrece fuentes open-source de alta calidad.',
     logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://www.theleagueofmoveabletype.com/favicon.ico',
     url: 'https://www.theleagueofmoveabletype.com/',
     category: 'fonts',
