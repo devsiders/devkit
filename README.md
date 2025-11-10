@@ -1,17 +1,38 @@
-# DevKit
+# 🧰 DevKit
 
-DevKit es una plataforma que recopila herramientas para los desarrolladores, incluyendo librerías, componentes UI, colecciones de iconos y fuentes tipográficas.
+**DevKit** es una plataforma que recopila y organiza **herramientas esenciales para desarrolladores**, incluyendo librerías, componentes UI, colecciones de iconos, fuentes tipográficas y más.
 
-### Categorías
+> 💡 Descubre, explora e integra recursos que impulsan tu flujo de trabajo como desarrollador web o diseñador.
 
-- **Libraries**: Librerías y frameworks para frontend y backend.
-- **UI**: Componentes y kits de interfaz de usuario.
-- **Icons**: Colecciones de iconos SVG y fuentes de iconos.
-- **Fonts**: Fuentes tipográficas para proyectos web y desarrollo.
-- **Tools**: Herramientas útiles para diseñadores y desarrolladores.
+---
 
-Puedes usar esta lista para descubrir nuevas herramientas o integrarlas en tus proyectos.
+## 🗂️ Categorías
 
-## Contribuciones
+| Categoría | Descripción |
+|------------|-------------|
+| ⚙️ **Libraries** | Librerías y frameworks para frontend y backend. |
+| 🎨 **UI** | Componentes y kits de interfaz de usuario listos para usar. |
+| 🧩 **Icons** | Colecciones de iconos SVG e icon fonts. |
+| ✍️ **Fonts** | Fuentes tipográficas para proyectos web y de desarrollo. |
+| 🧰 **Tools** | Herramientas útiles para diseñadores y desarrolladores. |
 
-Las contribuciones son bienvenidas. Si quieres sugerir una herramienta o mejorar la lista, abre un issue o un pull request.
+Puedes usar **DevKit** para descubrir nuevas herramientas, inspirarte o integrarlas fácilmente en tus proyectos.
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- ⚛️ **React**  
+- 🟦 **TypeScript**  
+- 💨 **Tailwind CSS**  
+- ⚡ (opcional si lo usas) **Vite** o **Next.js**
+
+---
+
+## 💻 Ejecución local
+
+```bash
+git clone https://github.com/tuusuario/devkit.git
+cd devkit
+npm install
+npm run dev
