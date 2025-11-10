@@ -25,7 +25,7 @@ Puedes usar **DevKit** para descubrir nuevas herramientas, inspirarte o integrar
 - ⚛️ **React**  
 - 🟦 **TypeScript**  
 - 💨 **Tailwind CSS**  
-- ⚡ (opcional si lo usas) **Vite** o **Next.js**
+- ⚡ **Vite**
 
 ---
 
