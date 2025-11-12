@@ -195,7 +195,28 @@ export const devKits: DevKit[] = [
     url: 'https://vercel.com/',
     category: 'tools',
     tags: ['hosting', 'deploy', 'serverless']
+  },
+  {
+    id: '23',
+    name: 'Formmy',
+    description: 'Crea formularios sin código y recibe respuestas sin configurar backend.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://www.formmy.app/favicon.ico',
+    url: 'https://www.formmy.app/',
+    category: 'tools',
+    tags: ['no-code', 'forms', 'backendless']
+  },
+  {
+    id: '24',
+    name: 'CoolContrast',
+    description: 'Generador de combinaciones de colores con buen contraste para diseño accesible.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://coolcontrast.vercel.app/favicon.ico',
+    url: 'https://coolcontrast.vercel.app/',
+    github: 'https://github.com/AlexGarrixen/Cool-Contrast',
+    category: 'tools',
+    tags: ['colors', 'accessibility', 'ui']
   }
+
+
 
 
 
