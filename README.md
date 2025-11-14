@@ -1,6 +1,6 @@
 # 🧰 DevKit
 
-**DevKit** es una plataforma que recopila y organiza **herramientas esenciales para desarrolladores**, incluyendo librerías, componentes UI, colecciones de iconos, fuentes tipográficas y más.
+**Stackly** es una plataforma que recopila y organiza **herramientas esenciales para desarrolladores**, incluyendo librerías, componentes UI, colecciones de iconos, fuentes tipográficas y más.
 
 > 💡 Descubre, explora e integra recursos que impulsan tu flujo de trabajo como desarrollador web o diseñador.
 
@@ -16,7 +16,7 @@
 | ✍️ **Fonts** | Fuentes tipográficas para proyectos web y de desarrollo. |
 | 🧰 **Tools** | Herramientas útiles para diseñadores y desarrolladores. |
 
-Puedes usar **DevKit** para descubrir nuevas herramientas, inspirarte o integrarlas fácilmente en tus proyectos.
+Puedes usar **Stackly** para descubrir nuevas herramientas, inspirarte o integrarlas fácilmente en tus proyectos.
 
 ---
 
@@ -32,7 +32,7 @@ Puedes usar **DevKit** para descubrir nuevas herramientas, inspirarte o integrar
 ## 💻 Ejecución local
 
 ```bash
-git clone https://github.com/tuusuario/devkit.git
+git clone https://github.com/tuusuario/stackly.git
 cd devkit
 npm install
 npm run dev
