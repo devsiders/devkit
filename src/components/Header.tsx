@@ -14,7 +14,7 @@ const Header = () => {
             rel="noopener noreferrer"
             aria-label='Abrir repositorio en GitHub'
           >
-            <Github className="w-7 h-7" />
+            <Github className="w-5 h-5" />
           </a>
         </div>
       </div>
