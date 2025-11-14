@@ -1,4 +1,4 @@
-# 🧰 DevKit
+# 🧰 Stackly
 
 **Stackly** es una plataforma que recopila y organiza **herramientas esenciales para desarrolladores**, incluyendo librerías, componentes UI, colecciones de iconos, fuentes tipográficas y más.
 
