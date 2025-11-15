@@ -1,4 +1,4 @@
-# 🧰 Stackly
+# Stackly
 
 **Stackly** es una plataforma que recopila y organiza **herramientas esenciales para desarrolladores**, incluyendo librerías, componentes UI, colecciones de iconos, fuentes tipográficas y más.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 🗂️ Categorías
+## Categorías
 
 | Categoría | Descripción |
 |------------|-------------|
@@ -20,19 +20,19 @@ Puedes usar **Stackly** para descubrir nuevas herramientas, inspirarte o integra
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 
-- ⚛️ **React**  
-- 🟦 **TypeScript**  
-- 💨 **Tailwind CSS**  
-- ⚡ **Vite**
+- **React**  
+- **TypeScript**  
+- **Tailwind CSS**  
+- **Vite**
 
 ---
 
 ## 💻 Ejecución local
 
 ```bash
-git clone https://github.com/tuusuario/stackly.git
+git clone https://github.com/devsiders/stackly.git
 cd devkit
 npm install
 npm run dev
