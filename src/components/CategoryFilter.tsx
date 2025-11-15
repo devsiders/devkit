@@ -12,7 +12,7 @@ const categories = [
   { id: 'icons', name: 'Iconos', icon: Palette },
   { id: 'fonts', name: 'Fuentes', icon: Type },
   { id: 'tools', name: 'Herramientas', icon: Wrench },
-  { id: 'nocode', name: 'No-Code / Low-Code', icon: Blocks }
+  { id: 'nocode', name: 'No-Code', icon: Blocks }
 ];
 
 const CategoryFilter = ({ activeCategory, onCategoryChange }: CategoryFilterProps) => {
