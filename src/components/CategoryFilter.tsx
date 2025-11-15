@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { Boxes, Package, LayoutGrid, Palette, Type, Wrench } from 'lucide-react';
+import { Boxes, Package, Palette, Type, Wrench, Blocks } from 'lucide-react';
 
 interface CategoryFilterProps {
   activeCategory: string;
@@ -12,6 +12,7 @@ const categories = [
   { id: 'icons', name: 'Iconos', icon: Palette },
   { id: 'fonts', name: 'Fuentes', icon: Type },
   { id: 'tools', name: 'Herramientas', icon: Wrench }
+  { id: 'nocode', name: 'No-Code / Low-Code', icon: Blocks }
 ];
 
 const CategoryFilter = ({ activeCategory, onCategoryChange }: CategoryFilterProps) => {
