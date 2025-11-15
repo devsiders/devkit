@@ -33,6 +33,6 @@ Puedes usar **Stackly** para descubrir nuevas herramientas, inspirarte o integra
 
 ```bash
 git clone https://github.com/devsiders/stackly.git
-cd devkit
+cd stackly
 npm install
 npm run dev
