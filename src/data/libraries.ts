@@ -117,12 +117,12 @@ export const devKits: DevKit[] = [
   },
   {
     id: '13',
-    name: 'Framer Motion',
-    description: 'Librería de animaciones para React.',
-    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://cdn.worldvectorlogo.com/logos/framer-1.svg',
-    url: 'https://www.framer.com/motion/',
+    name: 'Motion',
+    description: 'Librería de animaciones para JavaScript, React y Vue.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPznwv7OeqDgGjrlZfT28XyX4J9oJyZ9TYwg&s',
+    url: 'https://www.motion.dev/',
     category: 'libraries',
-    tags: ['animation', 'motion', 'react']
+    tags: ['animation', 'react', 'vue']
   },
   {
     id: '14',
