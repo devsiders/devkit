@@ -11,7 +11,7 @@ const categories = [
   { id: 'libraries', name: 'Librerías', icon: Package },
   { id: 'icons', name: 'Iconos', icon: Palette },
   { id: 'fonts', name: 'Fuentes', icon: Type },
-  { id: 'tools', name: 'Herramientas', icon: Wrench }
+  { id: 'tools', name: 'Herramientas', icon: Wrench },
   { id: 'nocode', name: 'No-Code / Low-Code', icon: Blocks }
 ];
 
