@@ -214,7 +214,17 @@ export const devKits: DevKit[] = [
     github: 'https://github.com/AlexGarrixen/Cool-Contrast',
     category: 'tools',
     tags: ['colors', 'accessibility', 'ui']
+  },
+  {
+    id: '25',
+    name: 'Imgur',
+    description: 'Plataforma de alojamiento y compartición de imágenes en línea.',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTUMEceBr6JB9DpdklcH5EyxjTOx130lz8LA&s',
+    url: 'https://imgur.com/',
+    category: 'tools',
+    tags: [ 'images', 'sharing', 'hosting']
   }
+
 
 
 
