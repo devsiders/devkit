@@ -219,7 +219,7 @@ export const devKits: DevKit[] = [
     id: '25',
     name: 'Imgur',
     description: 'Plataforma de alojamiento y compartición de imágenes en línea.',
-    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTUMEceBr6JB9DpdklcH5EyxjTOx130lz8LA&s',
+    logo: 'https://res.cloudinary.com/daxzhb62n/image/fetch/f_auto,q_auto,w_100/https://static.wikia.nocookie.net/logopedia/images/5/5e/Imgur_Icon_2018.svg',
     url: 'https://imgur.com/',
     category: 'tools',
     tags: [ 'images', 'sharing', 'hosting']
