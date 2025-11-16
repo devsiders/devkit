@@ -5,7 +5,7 @@ export interface DevKit {
   logo?: string;
   url: string;
   github?: string;
-  category: 'libraries'| 'ui' | 'icons' | 'fonts'| 'tools';
+  category: 'libraries'| 'ui' | 'icons' | 'fonts'| 'tools'| 'nocode';
   tags: string[];
 }
 
